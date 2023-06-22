@@ -1,0 +1,277 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+  outline: none;
+  scroll-behavior: smooth;
+  border: none;
+  color: #fffffe;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #232946;
+}
+
+header h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+header {
+  height: 15vh;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 9%;
+  z-index: 100;
+  position: fixed;
+}
+
+a {
+  text-decoration: none;
+  margin: 0px 15px;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+header a:hover {
+  color: #eebbc3
+}
+
+.flex {
+  display: flex;
+}
+
+.all-conteiner {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 99vw;
+}
+
+.home {
+  width: 40%;
+  height: 50%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home h2 {
+  font-size: 4.2em;
+  font-weight: 800;
+}
+
+.home h3 {
+  font-size: 2.8em;
+  font-weight: 700;
+}
+
+.home p {
+  color: #b8c1ec;
+  font-size: 1em;
+  width: 80%;
+  margin: 3% 0;
+}
+
+.developer {
+  color: #eebbc3;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.profile-image {
+  width: 30%;
+  height: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-image img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+
+
+/* SECTION SOBRE MI  */
+
+.about-me {
+  height: 100vh;
+  width: 99vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  height: 55%;
+  width: 90%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.skill-card {
+  height: 40%;
+  width: 17%;
+  border-radius: 10%;
+  border: #b8c1ec 4px solid;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #121629;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.skill-card i {
+  font-size: 2.5em;
+  height: 40%;
+}
+
+.skill-card p {
+  height: 15%;
+}
+
+.p-aboutme {
+  height: 20%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  font-size: 1em;
+}
+
+/* SECCION PROYECTOS */
+
+
+
+
+
+/* SECCION CONTACTO */
+
+.datos-contacto {
+  width: 40%;
+  height: 80%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contacto p {
+  font-size: 2em;
+  height: 15%;
+  width: 99%;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacto {
+  height: 100vh;
+  width: 99vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formulario-contacto {
+  height: 60%;
+  width: 35%;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 1.5em;
+  border-radius: 2%;
+  border: #b8c1ec 4px solid;
+  background-color: #121629;
+  align-items: center;
+}
+
+.formulario-contacto input {
+  height: 8%;
+  width: 100%;
+  color: #232946;
+  padding: 2%;
+}
+
+.message {
+  height: 30%;
+  width: 100%;
+  color: #232946;
+  padding: 2%;
+}
+
+.formulario-contacto button {
+  height: 50px;
+  width: 90px;
+  background-color: #eebbc3;
+  color: #232946;
+  border-radius: 10%;
+  margin-top: 5%;
+  font-size: 0.6em;
+}
+
+.formulario {
+  flex-direction: column;
+  width: 80%;
+  height: 80%;
+  justify-content: center;
+
+}
+
+.formulario label {
+  align-items: left;
+}
+
+
+.datos-contacto {
+  height: 60%;
+  width: 35%;
+  justify-content: center;
+  font-size: 1em;
+}
+
+.datos-contacto h2 {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.datos-contacto p,
+i {
+  font-size: 1.2em;
+  margin-right: 2%;
+}
+
+.contact-card i {
+color: #b8c1ec;
+}
+
+.contact-card {
+  height: 15%;
+  width: 100%;
+  align-items: center;
+}
+
+.social-media {
+  font-size: 2em;
+  justify-content: space-between;
+  width: 60%;
+  height: 20%;
+}
+
+.social-media a {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.bx-tada-hover:hover {
+  color: #eebbc3;
+  transition: 1s;
+}
